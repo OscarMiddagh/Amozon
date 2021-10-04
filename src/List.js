@@ -12,6 +12,8 @@ function List(props){
                         image={item.image}
                         rating={item.rating}
                         title={item.title}
+                        onupdaterating= {props.onupdaterating}
+                        ondelete = {props.ondelete}
                     />
                 )
             }
